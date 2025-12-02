@@ -143,7 +143,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 **Jim Christian**
 - Website: [jimchristian.net](https://jimchristian.net)
-- GitHub: [@jchristian](https://github.com/jchristian)
+- GitHub: [@aplaceforallmystuff](https://github.com/aplaceforallmystuff)
 
 ## Links
 
