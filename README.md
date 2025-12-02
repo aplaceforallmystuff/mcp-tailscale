@@ -93,7 +93,7 @@ Do any of my Tailscale devices need updates?
 
 ### Get Device Details
 ```
-Show me details about my device named "opus"
+Show me details about my device named "COMPY"
 ```
 
 ### Network Summary
