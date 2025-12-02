@@ -1,4 +1,7 @@
-# Tailscale MCP Server
+# mcp-tailscale
+
+[![npm version](https://badge.fury.io/js/@jchristian%2Fmcp-tailscale.svg)](https://www.npmjs.com/package/@jchristian/mcp-tailscale)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 MCP server for managing your Tailscale network (tailnet) through Claude Code and other MCP clients.
 
@@ -124,10 +127,26 @@ This MCP server uses read-only API calls. It does **not** modify your Tailscale 
 - Store keys securely (never commit to version control)
 - Use environment variables or secure configuration management
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
+
 ## License
 
-MIT
+MIT License - see [LICENSE](LICENSE) for details.
 
 ## Author
 
-Jim Christian
+**Jim Christian**
+- Website: [jimchristian.net](https://jimchristian.net)
+- GitHub: [@jchristian](https://github.com/jchristian)
+
+## Links
+
+- [npm package](https://www.npmjs.com/package/@jchristian/mcp-tailscale)
+- [Tailscale API Documentation](https://tailscale.com/kb/1101/api)
+- [Model Context Protocol](https://modelcontextprotocol.io)

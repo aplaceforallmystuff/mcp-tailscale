@@ -20,8 +20,19 @@
     "claude",
     "ai"
   ],
-  "author": "Jim Christian",
+  "author": {
+    "name": "Jim Christian",
+    "url": "https://jimchristian.net"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jchristian/mcp-tailscale.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jchristian/mcp-tailscale/issues"
+  },
+  "homepage": "https://github.com/jchristian/mcp-tailscale#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4"
   },
