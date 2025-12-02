@@ -1,5 +1,5 @@
 {
-  "name": "@jchristian/mcp-tailscale",
+  "name": "@aplaceforallmystuff/mcp-tailscale",
   "version": "0.1.0",
   "description": "MCP server for Tailscale API - manage devices, check status, and configure your tailnet",
   "type": "module",
