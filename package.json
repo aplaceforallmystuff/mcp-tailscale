@@ -1,0 +1,35 @@
+{
+  "name": "@jchristian/tailscale-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Tailscale API - manage devices, check status, and configure your tailnet",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "tailscale-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "tailscale",
+    "vpn",
+    "mesh-network",
+    "claude",
+    "ai"
+  ],
+  "author": "Jim Christian",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
