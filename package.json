@@ -1,11 +1,11 @@
 {
-  "name": "@jchristian/tailscale-mcp",
+  "name": "@jchristian/mcp-tailscale",
   "version": "0.1.0",
   "description": "MCP server for Tailscale API - manage devices, check status, and configure your tailnet",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "tailscale-mcp": "dist/index.js"
+    "mcp-tailscale": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",

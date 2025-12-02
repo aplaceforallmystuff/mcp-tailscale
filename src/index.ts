@@ -59,7 +59,7 @@ async function callTailscaleAPI(endpoint: string, options: RequestInit = {}): Pr
 
 const server = new Server(
   {
-    name: "tailscale-mcp",
+    name: "mcp-tailscale",
     version: "0.1.0",
   },
   {

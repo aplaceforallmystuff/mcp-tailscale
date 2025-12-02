@@ -53,7 +53,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "tailscale": {
       "command": "node",
-      "args": ["/absolute/path/to/tailscale-mcp/dist/index.js"],
+      "args": ["/absolute/path/to/mcp-tailscale/dist/index.js"],
       "env": {
         "TAILSCALE_API_KEY": "tskey-api-your-key-here"
       }
@@ -65,10 +65,10 @@ Add to your `claude_desktop_config.json`:
 ## Claude Code Configuration
 
 ```bash
-claude mcp add tailscale-mcp --type stdio
-claude mcp config tailscale-mcp command "node"
-claude mcp config tailscale-mcp args '["'$(pwd)'/dist/index.js"]'
-claude mcp config tailscale-mcp env.TAILSCALE_API_KEY "tskey-api-your-key-here"
+claude mcp add mcp-tailscale --type stdio
+claude mcp config mcp-tailscale command "node"
+claude mcp config mcp-tailscale args '["'$(pwd)'/dist/index.js"]'
+claude mcp config mcp-tailscale env.TAILSCALE_API_KEY "tskey-api-your-key-here"
 ```
 
 ## Usage Examples
