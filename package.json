@@ -1,6 +1,6 @@
 {
   "name": "mcp-tailscale",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "MCP server for Tailscale API - manage devices, check status, and configure your tailnet",
   "type": "module",
   "main": "dist/index.js",
@@ -14,16 +14,17 @@
   },
   "keywords": [
     "mcp",
+    "mcp-server",
+    "model-context-protocol",
     "tailscale",
     "vpn",
     "mesh-network",
     "claude",
-    "ai"
+    "ai",
+    "wireguard",
+    "network-management"
   ],
-  "author": {
-    "name": "Jim Christian",
-    "url": "https://jimchristian.net"
-  },
+  "author": "Jim Christian",
   "license": "MIT",
   "repository": {
     "type": "git",
