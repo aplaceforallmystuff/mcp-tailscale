@@ -1,7 +1,8 @@
 # mcp-tailscale
 
-[![npm version](https://badge.fury.io/js/mcp-tailscale.svg)](https://www.npmjs.com/package/mcp-tailscale)
+[![npm version](https://img.shields.io/npm/v/mcp-tailscale.svg)](https://www.npmjs.com/package/mcp-tailscale)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![MCP](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io)
 
 MCP server for managing your Tailscale network (tailnet) through Claude Code and other MCP clients.
 
