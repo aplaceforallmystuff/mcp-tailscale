@@ -129,10 +129,6 @@ This MCP server uses read-only API calls. It does **not** modify your Tailscale 
 - Store keys securely (never commit to version control)
 - Use environment variables or secure configuration management
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
