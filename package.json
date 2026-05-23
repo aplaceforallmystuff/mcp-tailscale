@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/aplaceforallmystuff/mcp-tailscale#readme",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.26.0"
+    "@modelcontextprotocol/sdk": "^1.29.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
