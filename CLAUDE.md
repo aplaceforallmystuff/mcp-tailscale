@@ -48,3 +48,7 @@ npm run watch       # tsc --watch
 - Read-only: no device modifications, only queries
 - Exits at startup if `TAILSCALE_API_KEY` is not set
 - API keys expire (1-90 days configurable at Tailscale)
+
+## Pre-Publish
+
+Run `/publish-mcp` before any `npm publish` — mandatory pipeline that handles tests, secret scan, sanitize, docs check, version bump, tag, push, and publish in strict order. Do not run `npm publish` directly.
